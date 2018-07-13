@@ -1,0 +1,144 @@
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+.banner-container {
+	position: absolute;
+	z-index: 10;
+	top: 27%;
+}
+.banner-h3 {
+	font-size: 4rem;
+	width: 100%;
+	text-align: center;
+	color: black;
+	text-transform: uppercase;
+}
+
+.banner-call {
+	font-size: 6rem;
+	width: 100vw;
+	text-align: center;
+	color: #D12127;
+	text-shadow: -2px 2px 0px #000000;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.btn-call {
+	height: 55px;
+    width: 320px;
+    border: none;
+    color: white;
+    background-color: #D12127;
+	font: 500 26px 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 1.7rem;
+    cursor: pointer;
+	margin-top: 30px;
+	margin-left: calc(50vw - 160px);
+}
+
+@media screen and (max-width: 1440px) {
+	.banner-container {
+		top: 20%;
+	}
+	.banner-h3 {
+		font-size: 3.5rem;
+	}
+	.banner-call {
+		font-size: 5rem;
+	}
+	.btn-call {
+		height: 50px;
+    	width: 300px;
+    	font-size: 1.5rem;
+	}
+}
+
+
+@media screen and (max-width: 1024px) {
+	.banner-container {
+		top: 15%;
+	}
+	.banner-h3 {
+		font-size: 2.5rem;
+		margin: 0 0 10px;
+	}
+	.banner-call {
+		font-size: 3.2rem;
+	}
+	.btn-call {
+		height: 40px;
+    	width: 280px;
+    	font-size: 1.4rem;
+		margin-top: 20px;
+		margin-left: calc(50vw - 140px);
+	}
+}
+
+
+@media screen and (max-width: 800px) {
+	.banner-container {
+		top: 12%;
+	}
+	.banner-h3 {
+		font-size: 1.8rem;
+		margin: 0 0 8px;
+	}
+	.banner-call {
+		font-size: 2.5rem;
+	}
+	.btn-call {
+		height: 35px;
+    	width: 250px;
+    	font-size: 1.2rem;
+		margin-top: 12px;
+		margin-left: calc(50vw - 125px);
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.banner-container {
+		top: 12%;
+	}
+	.banner-h3 {
+		display: none;
+	}
+	.banner-call {
+		font-size: 2.1rem;
+	}
+	.btn-call {
+		height: 30px;
+    	width: 200px;
+    	font-size: 1rem;
+		margin-top: 10px;
+		margin-left: calc(50vw - 100px);
+	}
+}
+
+
+@media screen and (max-width: 375px) {
+	.banner-call {
+		font-size: 1.8rem;
+	}
+	.btn-call {
+		height: 25px;
+    	width: 160px;
+    	font-size: 0.9rem;
+		margin-top: 8px;
+		margin-left: calc(50vw - 80px);
+	}
+}
+@media screen and (max-width: 360px) {
+	.banner-container {
+		top: 17%;
+	}
+	.btn-call {
+		display: none;
+	}
+}
